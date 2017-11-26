@@ -1,4 +1,3 @@
-
 def chunks(lst, chunk_count):
     chunk_size = len(lst) // chunk_count
     return [lst[i:i+chunk_size] for i in range(0, len(lst), chunk_size)]
