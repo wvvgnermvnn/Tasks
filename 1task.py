@@ -24,3 +24,4 @@ class SpreadingOutNumbers:
 if __name__ == '__main__':
     SimpleFactors = SpreadingOutNumbers(int(input("Введите число N: ")))
     print(SimpleFactors.simple_factors())
+    print("Сложность алгоритма O(sqrt(n))")
